@@ -12,7 +12,7 @@ const io = new Server(8000,{
 })
 
 
-app.use("/",(req,res)=>{
+app.get("/",(req,res)=>{
     res.send("working")
 })
 
